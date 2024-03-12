@@ -1,0 +1,61 @@
+jobname: mio_v4
+queue: normal
+walltime: 02:00:00
+
+# note: if laboratory is relative path, it is relative to /scratch/$PROJECT/$USER
+laboratory: access-esm
+model: access
+
+submodels:
+    - name: atmosphere
+      model: um
+      ncpus: 192
+      exe: /g/data/access/payu/access-esm/bin/coe/um7.3x
+      input:
+        - /g/data/y99/dkh157/access_esm/input/mio_v4/atmosphere
+        - /g/data/y99/dkh157/access_esm/input/mio_v4/start_dump
+
+    - name: ocean
+      model: mom
+      ncpus: 180
+      exe: /g/data/access/payu/access-esm/bin/coe/mom5xx
+      input:
+        - /g/data/y99/dkh157/access_esm/input/mio_v4/ocean/common
+        - /g/data/y99/dkh157/access_esm/input/mio_v4/ocean/pre-industrial
+
+    - name: ice
+      model: cice
+      ncpus: 12
+      exe: /g/data/access/payu/access-esm/bin/coe/cicexx
+      input:
+        - /g/data/y99/dkh157/access_esm/input/mio_v4/ice
+
+    - name: coupler
+      model: oasis
+      ncpus: 0
+      input:
+        - /g/data/y99/dkh157/access_esm/input/mio_v4/coupler
+
+collate:
+   exe: /g/data/access/payu/access-esm/bin/mppnccombine
+   restart: true
+   mem: 4GB
+
+restart: /g/data/y99/dkh157/access_esm/restart/mio_v4
+
+calendar:
+    start:
+        year: 1
+        month: 1
+        days: 1
+
+    runtime:
+        years: 1
+        months: 0
+        days: 0
+
+runspersub: 1
+
+stacksize: unlimited
+
+qsub_flags: -W umask=027
