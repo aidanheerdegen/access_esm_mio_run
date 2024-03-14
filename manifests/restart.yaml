@@ -2,75 +2,206 @@ format: yamanifest
 version: 1.0
 ---
 work/atmosphere/restart_dump.astart:
-  fullpath: /g/data/y99/dkh157/access_esm/restart/mio_v4/atmosphere/restart_dump.astart
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/atmosphere/restart_dump.astart
   hashes:
-    binhash: e1f0b6e60c46f1ff9d02be691246e7b1
-    md5: 72a1550d4c330e90b62190f3ba32ef87
+    binhash: f449f2bc2b1c9f287df2db465d8f03e5
+    md5: 38f467c30484ebf7a7673876976dc814
+work/atmosphere/um.res.yaml:
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/atmosphere/um.res.yaml
+  hashes:
+    binhash: ecaf25c5d3aab3376d5bcfacc187e318
+    md5: 1f4c2b84cd346be9674b5097cc1df650
 work/coupler/a2i.nc:
   copy: true
-  fullpath: /g/data/y99/dkh157/access_esm/restart/mio_v4/coupler/a2i.nc
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/coupler/a2i.nc
   hashes:
-    binhash: 89f6382b3249ba73e490f2784bdbc62a
-    md5: 1695db4de74dcb64dd3e5e3d29bf1957
+    binhash: 6ce9c9b59c6af5ea2428c49ff44a0a5d
+    md5: 221044e0c54c72310ff382c56fa20311
 work/coupler/i2a.nc:
   copy: true
-  fullpath: /g/data/y99/dkh157/access_esm/restart/mio_v4/coupler/i2a.nc
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/coupler/i2a.nc
   hashes:
-    binhash: b218584ac6776ecf1f27ed226efabfe8
-    md5: d2b49df85bc7cd14a41c7a0de8e7e191
+    binhash: 8eb63fd4561b00be8491773705f3d52f
+    md5: 1bb2a1409e8c279f0cf7344207246d31
 work/coupler/o2i.nc:
   copy: true
-  fullpath: /g/data/y99/dkh157/access_esm/restart/mio_v4/coupler/o2i.nc
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/coupler/o2i.nc
   hashes:
-    binhash: 32a74acd8a3c1000924256bc47be62a7
-    md5: 888eaa02eee90da4b592455210bee89a
+    binhash: 5b592f47c691f8227c19d2627fe5b0d4
+    md5: 0c34e4f74d0af711e1d9fd55b4255c7b
 work/ice/RESTART/cice_in.nml:
   copy: true
-  fullpath: /g/data/y99/dkh157/access_esm/restart/mio_v4/ice/cice_in.nml
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ice/cice_in.nml
   hashes:
-    binhash: 66b9d3d69bf662a6e2c395677aa0b989
-    md5: 1576287c82da88ffc4752430100f848e
+    binhash: 7b8570ae02a2c94094704bbed71d2c4d
+    md5: 167ce626f087671968b5f76d2aea3a6c
 work/ice/RESTART/ice.restart_file:
   copy: true
-  fullpath: /g/data/y99/dkh157/access_esm/restart/mio_v4/ice/ice.restart_file
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ice/ice.restart_file
   hashes:
-    binhash: e6651d6dcd52348f3e2255c807bed9d4
-    md5: ed754d1d68ca8721d5a46a63b62d48aa
-work/ice/RESTART/iced.01010101:
+    binhash: 716c2b80b8bdccba534dee9d8af10c45
+    md5: dcf29a090e7b616ae96ec5c844f1a208
+work/ice/RESTART/iced.01010201:
   copy: true
-  fullpath: /g/data/y99/dkh157/access_esm/restart/mio_v4/ice/iced.01010101
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ice/iced.01010201
   hashes:
-    binhash: e6f1d3668babe89d0295b47aa298bee6
-    md5: d773cba33e28e1a836658c0709c64830
+    binhash: c8a5e75103e35543566c075502074b73
+    md5: 6fa7d6723aa1ff68f15efb073005e6a1
+work/ice/RESTART/iced.01010301:
+  copy: true
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ice/iced.01010301
+  hashes:
+    binhash: 5db2be2e2edced6f99f729eda6096816
+    md5: cf8c1459f51b34bd37445b462d4006c4
+work/ice/RESTART/iced.01010401:
+  copy: true
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ice/iced.01010401
+  hashes:
+    binhash: 3feea5b5f0981eae92ed5aa3ce5950aa
+    md5: f5bad48f95b311f2b64054b35dece435
+work/ice/RESTART/iced.01010501:
+  copy: true
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ice/iced.01010501
+  hashes:
+    binhash: 78ff3c719fbd68264a0506901a072047
+    md5: 01ab447ae8e30da6b28f85704dc09ac2
+work/ice/RESTART/iced.01010601:
+  copy: true
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ice/iced.01010601
+  hashes:
+    binhash: d91282345dd9b454129d956ce3b7ba1d
+    md5: 34e3a09accff5f0de4bcc757779cfad2
+work/ice/RESTART/iced.01010701:
+  copy: true
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ice/iced.01010701
+  hashes:
+    binhash: 349ebae286d11884b0f47e4223f57e74
+    md5: 8eefc336c2551902a8273dd40867529d
+work/ice/RESTART/iced.01010801:
+  copy: true
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ice/iced.01010801
+  hashes:
+    binhash: 56feb994d46ab7fb44f53efbdeff4ed2
+    md5: 9743627bd1c577291887b8a6813abbc9
+work/ice/RESTART/iced.01010901:
+  copy: true
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ice/iced.01010901
+  hashes:
+    binhash: d9bb00b8e70e658682c8fe801a44bca6
+    md5: d7de0f0b8dcb82d559b0793ee72b7422
+work/ice/RESTART/iced.01011001:
+  copy: true
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ice/iced.01011001
+  hashes:
+    binhash: d48a827a9fae163167020a75c3b95164
+    md5: 668e3815cb711f1fec5e75b34f06cfe8
+work/ice/RESTART/iced.01011101:
+  copy: true
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ice/iced.01011101
+  hashes:
+    binhash: 99836a485d8d73cedc33c4817f65d011
+    md5: 21d0b5891c0736b75943b5239ed32ed4
+work/ice/RESTART/iced.01011201:
+  copy: true
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ice/iced.01011201
+  hashes:
+    binhash: c663c5a200d99d8f91fbc81e09d9b3ca
+    md5: e35fba3d0e02cd34d7910c0c70a5e677
+work/ice/RESTART/iced.01020101:
+  copy: true
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ice/iced.01020101
+  hashes:
+    binhash: bb21d65b05b3fcaf34c07d0dcc996100
+    md5: ecd785748db00056d24a34d340e0ab8d
 work/ice/RESTART/input_ice.nml:
   copy: true
-  fullpath: /g/data/y99/dkh157/access_esm/restart/mio_v4/ice/input_ice.nml
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ice/input_ice.nml
   hashes:
-    binhash: 6cc3cd80f5265982fc066113853daf7e
-    md5: e2d6d0541795dd3eeae54cda28ecba96
+    binhash: c05886e13a49805112e8813cdd128e4b
+    md5: 1bc71f31bb127e3e1ea534f224af9258
 work/ice/RESTART/mice.nc:
   copy: true
-  fullpath: /g/data/y99/dkh157/access_esm/restart/mio_v4/ice/mice.nc
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ice/mice.nc
   hashes:
-    binhash: e71434f59b7460f4c924197d9e7a11d1
-    md5: fe41722db154e886fb3e4486873554d7
-work/ocean/INPUT/csiro_bgc.res.nc:
-  fullpath: /g/data/y99/dkh157/access_esm/restart/mio_v4/ocean/csiro_bgc.res.nc
+    binhash: 4f1171c8a9b1b482d0223cfb4f0229da
+    md5: 6b711e9c4a62a87cc596f7f67ba02180
+work/ocean/INPUT/ocean_age.res.nc:
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ocean/ocean_age.res.nc
   hashes:
-    binhash: 8a297043de6a841a6a2e6181e31bd3e6
-    md5: 46b0894fdefc6fd18b5471c83576989f
-work/ocean/INPUT/csiro_bgc_sediment.res.nc:
-  fullpath: /g/data/y99/dkh157/access_esm/restart/mio_v4/ocean/csiro_bgc_sediment.res.nc
+    binhash: 2536591bdc314e96cc759c2bbff58069
+    md5: eb246eb284828a88290fa3bb7e381733
+work/ocean/INPUT/ocean_barotropic.res.nc:
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ocean/ocean_barotropic.res.nc
   hashes:
-    binhash: 179a40c6a9ae1b762906e8c266337ed2
-    md5: c63950a1ce1534617e03d311b641de1e
+    binhash: 16458451a3f632b576ad6b133a8d35f8
+    md5: 27142f903efb8dc9d19d16c6250e8108
+work/ocean/INPUT/ocean_bih_friction.res.nc:
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ocean/ocean_bih_friction.res.nc
+  hashes:
+    binhash: 63973157d33762761d4f7bc5b5c124b4
+    md5: e5d16022ab0cb385600efdcbf97d96f9
+work/ocean/INPUT/ocean_density.res.nc:
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ocean/ocean_density.res.nc
+  hashes:
+    binhash: 020ab9aeb32ebfceadc3d7a0b6e95610
+    md5: 9079c95c5f795420d6852a7c62f121f0
+work/ocean/INPUT/ocean_frazil.res.nc:
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ocean/ocean_frazil.res.nc
+  hashes:
+    binhash: 1dbe2997a75b45734c53020233d109eb
+    md5: 29b52370f29387bfe33b3de95ae0a301
+work/ocean/INPUT/ocean_lap_friction.res.nc:
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ocean/ocean_lap_friction.res.nc
+  hashes:
+    binhash: e53a7447bd83832f2c0b73d6c92130bc
+    md5: 23497fa5c5d6c908af244f6fa4d5a653
+work/ocean/INPUT/ocean_neutral.res.nc:
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ocean/ocean_neutral.res.nc
+  hashes:
+    binhash: 0372487886fb1e7d1edfb81d78118397
+    md5: fe0de7e6eb7ce7f0c690f8b9142b7e2d
+work/ocean/INPUT/ocean_pot_temp.res.nc:
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ocean/ocean_pot_temp.res.nc
+  hashes:
+    binhash: 4415c58e1542e4704cc2f51356b27c50
+    md5: 31308a6cb9a6eeda58d1d161f508f1ec
+work/ocean/INPUT/ocean_sbc.res.nc:
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ocean/ocean_sbc.res.nc
+  hashes:
+    binhash: 9f643c02c8fc50a3a64bc66a6fab82ec
+    md5: 4709c715a957b97a72cd8a92c848e52e
+work/ocean/INPUT/ocean_sigma_transport.res.nc:
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ocean/ocean_sigma_transport.res.nc
+  hashes:
+    binhash: 55aeca9e224e1657081be641b6b9e644
+    md5: 5550a0d1a470d3f9c9e79d12bf6ec748
 work/ocean/INPUT/ocean_solo.res:
-  fullpath: /g/data/y99/dkh157/access_esm/restart/mio_v4/ocean/ocean_solo.res
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ocean/ocean_solo.res
   hashes:
-    binhash: bf1e2afe7d87966bd18b95d05f90958e
-    md5: 4f2e945cebd878e006a2e961bef57ff1
+    binhash: 10713b75b66d853aa43d18d36db5721a
+    md5: 8d4e23016bb1417bee2e55f363c7d6fa
 work/ocean/INPUT/ocean_temp_salt.res.nc:
-  fullpath: /g/data/y99/dkh157/access_esm/restart/mio_v4/ocean/ocean_temp_salt.res.nc
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ocean/ocean_temp_salt.res.nc
   hashes:
-    binhash: 485a419343b3f0c0710a3805588ddbe2
-    md5: c6a99b16a7b224bbbcd3b2729305d601
+    binhash: 66a9dff91c39c74a3ad68cf627edb5c8
+    md5: 6d729a16712fc82eb9d840abdc857957
+work/ocean/INPUT/ocean_thickness.res.nc:
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ocean/ocean_thickness.res.nc
+  hashes:
+    binhash: 936bf99c40173596ecf542a325a992e4
+    md5: 979df7c41721ff469654495ef197a7c2
+work/ocean/INPUT/ocean_tracer.res:
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ocean/ocean_tracer.res
+  hashes:
+    binhash: 4ed5a4be0ad61f0034a99fda14028fae
+    md5: ee85ab45e2062326f3d45a771f5e1904
+work/ocean/INPUT/ocean_velocity.res.nc:
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ocean/ocean_velocity.res.nc
+  hashes:
+    binhash: fb8dffdf91e7a1b63c5cb97a2ee0e36b
+    md5: e1c11a69a92dc514954c52dc612c18fb
+work/ocean/INPUT/ocean_velocity_advection.res.nc:
+  fullpath: /scratch/y99/dkh157/access-esm/archive/mio_v4/restart000/ocean/ocean_velocity_advection.res.nc
+  hashes:
+    binhash: a4cc4cfab6393fe8e543cfd4c362c718
+    md5: f631a0ebd9659e41bb100307f6a870ff
