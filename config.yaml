@@ -1,6 +1,7 @@
 jobname: mio_v4
-queue: express
-walltime: 00:20:00
+queue: normal
+walltime: 02:00:00
+qsub_flags: '-j oe'
 
 # note: if laboratory is relative path, it is relative to /scratch/$PROJECT/$USER
 laboratory: access-esm
@@ -50,8 +51,8 @@ calendar:
         days: 1
 
     runtime:
-        years: 0
-        months: 1
+        years: 1
+        months: 0
         days: 0
 
 runspersub: 1
