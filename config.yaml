@@ -56,7 +56,9 @@ calendar:
         days: 0
 
 runspersub: 1
+restart_freq: 1
 
 stacksize: unlimited
 
 qsub_flags: -W umask=027
+
